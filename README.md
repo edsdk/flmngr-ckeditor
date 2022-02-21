@@ -2,7 +2,7 @@
 
 ## [Flmngr file manager](https://flmngr.com) - upload, organize and edit images with a charm
 
-This is free plugin and free product. The only difference in features with Premium version is image editor not included in Free version.
+This is a **plugin for CKEditor 4**, free to install and use. This plugin can use free or premium version of Flmngr, the only difference in features is image editor is not included into free version. 
 
 If you have already installed and use [N1ED](https://n1ed.com) plugin, please do not install this one: Flmngr is included into N1ED. Use this Flmngr add-on when you need just file manager and image editor only.
 
@@ -35,7 +35,7 @@ config.toolbar = [
   // ...your toolbar goes here...
   ["Flmngr", "ImgPen"]
 ];
-// apiKey: "SOME_KEY" -- optional
+// config.apiKey = "SOME_KEY"; -- optional
 ```
 All further job will be done by it.
 
