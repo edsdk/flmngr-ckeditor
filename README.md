@@ -1,6 +1,6 @@
 [![Flmngr file manager screenshot](https://flmngr.com/img/file-manager.gif)](https://flmngr.com)
 
-##[Flmngr file manager](https://flmngr.com) - upload, organize and edit images with a charm
+## [Flmngr file manager](https://flmngr.com) - upload, organize and edit images with a charm
 
 This is free plugin and free product. The only difference in features with Premium version is image editor not included in Free version.
 
