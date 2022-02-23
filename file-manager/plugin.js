@@ -71,7 +71,7 @@ var urlPlugin = (
 
 
 CKEDITOR.plugins.addExternal("N1EDEco", urlPlugin);
-CKEDITOR.plugins.add( "N1ED-editor", {
+CKEDITOR.plugins.add( "file-manager", {
     "requires": ["N1EDEco"], // We can not move N1EDEco in this file due to we need to dynamically
                              // embed configuration from your Dashboard into it.
                              // So N1EDEco add-on can be loaded only from CDN
