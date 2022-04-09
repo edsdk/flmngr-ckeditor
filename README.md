@@ -11,7 +11,7 @@ If you have already installed and use [N1ED](https://n1ed.com) plugin, please do
 - Seamless integration with CKEditor 4
 - [ImgPen](https://imgpen.com) image editor onboard
 - Easy install as CKEditor plugin
-- PHP, .NET, Java and Node backends available
+- Support of PHP, .NET, Java and Node backends
 - Upload files and images
 - All standard features to organize files
 - Dynamic fast browsing big folders
@@ -33,7 +33,7 @@ config.Flmngr = {
 };
 config.toolbar = [
   // ...your toolbar goes here...
-  ["Flmngr", "ImgPen"]
+  ["Flmngr", "Upload", "ImgPen"]
 ];
 // config.apiKey = "SOME_KEY"; -- optional
 ```
@@ -52,7 +52,7 @@ CKEDITOR.replace(
      },
      toolbar: [
            // ...your toolbar goes here...
-           ["Flmngr", "ImgPen"]
+           ["Flmngr", "Upload", "ImgPen"]
      ],
      // apiKey: "SOME_KEY" -- optional
   }
