@@ -1,6 +1,20 @@
+<p align="center">
+    <a href="https://flmngr.com/"><img src="https://flmngr.com/img/Flmngr.png" alt="Flmngr" width="90" /></a>
+</p>
+
+<h1 align="center">Flmngr</h1>
+
+<p align="center">
+    <strong>Flmngr file manager is CKEditor plugin for managing your media library. 30000+ free stock photos. </strong>
+</p>
+
+<p align="center">
+    <a href="https://flmngr.com/">Home page</a> ∙ <a href="https://flmngr.com/doc/install-ckeditor-plugin/">Install</a> ∙ <a href="https://codepen.io/N1ED/pen/eYJmXvd">Try Online</a>
+</p>
+
 [![Flmngr file manager screenshot](https://flmngr.com/img/browsing.jpg)](https://flmngr.com)
 
-## [Flmngr file manager](https://flmngr.com) - upload, organize and edit images with a charm
+## Intro
 
 This is a **plugin for CKEditor 4**, free to install and use. This plugin can use free or premium version of Flmngr, the only difference in features is image editor is not included into free version. 
 
