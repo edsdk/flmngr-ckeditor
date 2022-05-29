@@ -2,7 +2,7 @@
     <a href="https://flmngr.com/"><img src="https://flmngr.com/img/Flmngr.png" alt="Flmngr" width="90" /></a>
 </p>
 
-<h1 align="center">Flmngr</h1>
+<h1 align="center" style="margin-top:-20px">Flmngr</h1>
 
 <p align="center">
     <strong>Flmngr file manager is CKEditor plugin for managing your media library. 30000+ free stock photos. </strong>
@@ -16,7 +16,7 @@
 
 ## Intro
 
-This is a **plugin for CKEditor 4**, free to install and use. This plugin can use free or premium version of Flmngr, the only difference in features is image editor is not included into free version. 
+This is a **file manager plugin for CKEditor 4**, free to install and use. This plugin can use free or premium version of Flmngr, the only difference in features is image editor is not included into free version. 
 
 If you have already installed and use [N1ED](https://n1ed.com) plugin, please do not install this one: Flmngr is included into N1ED. Use this Flmngr add-on when you need just file manager and image editor only.
 
@@ -33,6 +33,8 @@ If you have already installed and use [N1ED](https://n1ed.com) plugin, please do
 - [API](https://flmngr.com/api/classes/flmngr.html) for programmatic calls.
 
 ## Installation
+
+[Download File Manager plugin](https://flmngr.com/download/flmngr-ckeditor.zip)
 
 Copy `file-manager` directory into `ckeditor/plugins/`.
 You will have such file path as result: `ckeditor/plugins/file-manager/plugin.js`.
@@ -75,7 +77,7 @@ CKEDITOR.replace(
 
 ## Backend installation
 
-This plugin can access your server only if you installed a backend to support calls from Flmngr. Please [follow instructions](https://n1ed.com/install/manual/ckeditor/install-ckeditor-php-file-manager-composer) to install Flmngr backend on your server (a number of different backend editions are over this link). PHP backend is preferable due to it supports the latest features we included into Flmngr.
+This plugin can access your server only if you installed a backend to support calls from Flmngr. Please [follow instructions](https://flmngr.com/doc/install-php-file-manager-composer) to install Flmngr backend on your server (a number of different backend editions are over this link). PHP backend is preferable due to it supports the latest features we included into Flmngr.
 
 ## Configuration
 
