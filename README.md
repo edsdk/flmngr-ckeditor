@@ -8,7 +8,7 @@
     <strong>Flmngr file manager is CKEditor plugin for managing your media library. 30000+ free stock photos. </strong>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
     <a href="https://www.npmjs.com/package/@edsdk/flmngr"><img src="https://badge.fury.io/js/flmngr.svg" alt="npm version" height="18"></a>
     <a href="https://twitter.com/intent/tweet?text=Check%20out%20Flmngr%20on%20GitHub&url=https%3A%2F%2Fgithub.com%2Fedsdk%2Fflmngr-ckeditor"><img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="Tweet"/>
 </p>
