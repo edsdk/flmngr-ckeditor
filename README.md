@@ -89,4 +89,4 @@ See example values in Installation section above.
 
 ## Support
 
-Please do not hesitate to ask any questions regarding installation or using sending a letter to [support e-mail](mailto:support@n1ed.zendesk.com).
+Please do not hesitate to ask any questions regarding installation or using sending a letter to [support e-mail](mailto:support@helpdesk.edsdk.com).
