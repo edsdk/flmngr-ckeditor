@@ -24,8 +24,8 @@ If you have already installed and use [N1ED](https://n1ed.com) plugin, please do
 
 - Seamless integration with CKEditor 4
 - [ImgPen](https://imgpen.com) image editor onboard
-- Easy install as CKEditor plugin
-- Support of PHP, .NET, Java and Node backends
+- Easy installation as CKEditor plugin
+- Support of PHP and Node backends
 - Upload files and images
 - All standard features to organize files
 - Dynamic fast browsing big folders
@@ -40,7 +40,7 @@ Copy `file-manager` directory into `ckeditor/plugins/`.
 You will have such file path as result: `ckeditor/plugins/file-manager/plugin.js`.
 
 ### If you use `config.js`
-Add this line into your "config.js" file to activate N1ED.
+Add these lines into your "config.js" file to activate the plugin:
 ```js
 config.extraPlugins = "file-manager";
 config.Flmngr = {
