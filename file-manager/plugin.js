@@ -29,7 +29,7 @@
 (function() {
 
     var PLUGIN_NAME = "file-manager";
-    var DEFAULT_API_KEY = "N1EDMDRN";
+    var DEFAULT_API_KEY = "FLMNFLMN";
 
     window.n1edPluginVersion=202310001;
 
