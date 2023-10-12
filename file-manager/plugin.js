@@ -31,10 +31,10 @@
     var PLUGIN_NAME = "file-manager";
     var DEFAULT_API_KEY = "FLMNFLMN";
 
-    window.n1edPluginVersion=202310001;
+    window.n1edPluginVersion=202310002;
 
     function get(varName, defaultValue) {
-        if (window[varName] !== undefined)
+        if (window[varName] !== undefined && window[varName] !== "-")
             return window[varName];
         else
             return defaultValue;
@@ -58,13 +58,8 @@
 
     var protocol = n1edHttps ? "https" : "http";
 
-    // TODO: change to cdn.n1ed.com host
-    //var host = (n1edPrefix ? (n1edPrefix + ".") : "") + "cdn.n1ed.com";
-    var host = (n1edPrefix ? (n1edPrefix + ".") : "") + "cloud.n1ed.com";
-
-    // TODO: change to cdn.n1ed.com form
-    //var urlPlugin = protocol + "://" + host + "/v/" + version + "/plugins/N1EDEco/plugin.js?apiKey=" + apiKey;
-    var urlPlugin = protocol + "://" + host + "/cdn/" + apiKey + "/" + version + "/ckeditor/plugins/N1EDEco/plugin.js";
+    var host = (n1edPrefix ? (n1edPrefix + ".") : "") + "cdn.edsdk.com";
+    var urlPlugin = protocol + "://" + host + "/a/" + apiKey + "/plugins/Ecosystem/plugin.js";
 
     var oldScriptLoaderLoad = window.CKEDITOR.scriptLoader.load;
     window.CKEDITOR.scriptLoader.load = function(scriptUrl, callback, scope, showBusy) {
@@ -78,7 +73,7 @@
                         var m = failed[i].match(/^https?:\/\/cloud\.n1ed\.com\/cdn\/[^/]+?\/[^/]+?\/ckeditor\/plugins\/([^/]+?)\/plugin\.js.*?/);
 
                         if (!m) {
-                            m = failed[i].match(/^https?:\/\/cdn\.n1ed\.com\/v\/[^/]+?\/plugins\/([^/]+?)\/plugin\.js.*?/);
+                            m = failed[i].match(/^https?:\/\/cdn\.edsdk\.com\/v\/[^/]+?\/plugins\/([^/]+?)\/plugin\.js.*?/);
                         }
                         if (m != null) {
                             var pluginName = m[1];
@@ -104,11 +99,11 @@
         ]);
     };
 
-    CKEDITOR.plugins.addExternal("N1EDEco", urlPlugin);
+    CKEDITOR.plugins.addExternal("Ecosystem", urlPlugin);
     CKEDITOR.plugins.add( PLUGIN_NAME, {
-        "requires": ["N1EDEco"], // We can not move N1EDEco in this file due to we need to dynamically
-                                 // embed configuration from your Dashboard into it.
-                                 // So N1EDEco add-on can be loaded only from CDN
+        "requires": ["Ecosystem"], // We can not move Ecosystem in this file due to we need to dynamically
+                                   // embed configuration from your Dashboard into it.
+                                   // So Ecosystem add-on can be loaded only from CDN
     });
 
 })()
