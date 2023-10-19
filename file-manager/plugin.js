@@ -22,7 +22,7 @@ var n1edHttps = CKEDITOR.config.n1edHttps;
 var n1edPrefixApp = CKEDITOR.config.n1edPrefixApp;
 var n1edHttpsApp = CKEDITOR.config.n1edHttpsApp;
 var urlCache = CKEDITOR.config.urlCache;
-window.n1edPluginVersion=202308001;
+window.n1edPluginVersion=202308002;
 for (var i=0; i<Object.keys(CKEDITOR.instances).length; i++) {
     var id = Object.keys(CKEDITOR.instances)[i];
     if (CKEDITOR.instances[id].config.Flmngr && CKEDITOR.instances[id].config.Flmngr.apiKey)
@@ -45,6 +45,8 @@ for (var i=0; i<Object.keys(CKEDITOR.instances).length; i++) {
 
 // Cookies may contain data for development purposes (which version to load, from where, etc.).
 function getCookie(name) {
+    if (typeof window[name] !== 'undefined')
+        return "" + window[name];
     var value = '; ' + document.cookie;
     var parts = value.split('; ' + name + '=');
     if (parts.length === 2)
